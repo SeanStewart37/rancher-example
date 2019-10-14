@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: encrypted-secrets-cm
-  namespace: default
+  namespace: default2
 data:
   token: /Fj+GgbEJFD1QFBHtwjWXg==:ezrC+xXlRcMV4wxXiTyKYA==
   token2: /Fj+GgbEJFD1QFBHtwjWXg==:ezrC+xXlRcMV4wxXiTyKYA==

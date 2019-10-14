@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: kamus-example
-  namespace: default
+  namespace: default2
   labels:
     app: kamus-example
 spec:

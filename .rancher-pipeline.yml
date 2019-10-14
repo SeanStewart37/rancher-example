@@ -3,11 +3,14 @@ stages:
   steps:
   - runScriptConfig:
       image: golang:1.11
-      shellScript: |-
-        echo "Test"
+      shellScript: echo "Test"
 - name: Deploy
   steps:
   - applyYamlConfig:
       path: ./deployment/configmap.yaml
   - applyYamlConfig:
       path: ./deployment/deployment.yaml
+branch:
+  include:
+  - master
+notification: {}

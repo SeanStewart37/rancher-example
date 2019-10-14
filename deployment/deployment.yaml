@@ -11,6 +11,7 @@ spec:
       labels:
         app: kamus-example
     spec:
+      replicas: 3
       serviceAccountName: kamus-example-sa1
       automountServiceAccountToken: true
       initContainers:
